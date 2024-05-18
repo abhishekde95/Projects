@@ -3,5 +3,7 @@
 3. Download packages: `python3 -m pip install -r requirements.txt`
 4. Install ipykernel: `python -m ipykernel install --user --name trading`
 5. Fire up a jupyter notebook: `jupyter notebook`
+6. Install new libraries: `pip install new_library`
+7. Update the requirements.txt: `pip freeze > requirements.txt`
 
 For the trading exercises, majority of the experiments were inspired by notebooks in https://github.com/stefan-jansen/machine-learning-for-trading
