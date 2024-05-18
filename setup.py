@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 VERSION = "1.0"
 DESCRIPTION = "Package for Projects"
@@ -17,7 +17,6 @@ setup(
     # needs to be installed along with your package. Eg: 'caer'
     keywords=["python", "utils"],
     classifiers=[
-        "Development Status :: 3 - Alpha",
         "Intended Audience :: Education",
         "Programming Language :: Python :: 3",
         "Operating System :: MacOS :: MacOS X",
