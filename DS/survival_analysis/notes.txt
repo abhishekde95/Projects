@@ -1,1 +1,2 @@
 Link: https://timeseriesreasoning.com/contents/survival-analysis/
+Investopedia: https://www.investopedia.com/terms/s/survival-analysis.asp
