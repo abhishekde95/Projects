@@ -1,11 +1,14 @@
-import numpy as np 
-import pandas as pd
 from typing import Any
-from sklearn.metrics import roc_curve, roc_auc_score
+
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from sklearn.metrics import roc_auc_score, roc_curve
 
 
-def plot_aucroc_curve(true_value: Any, predicted_value: Any, ax=None, plot=True):
+def plot_aucroc_curve(
+    true_value: Any, predicted_value: Any, ax=None, plot=True
+):
     """Function for plotting auc roc curve"""
 
     ## Model performance
@@ -26,8 +29,8 @@ def plot_aucroc_curve(true_value: Any, predicted_value: Any, ax=None, plot=True)
 
     else:
         return auc_roc_score
-    
-    
+
+
 def multiindex_to_singleindex(df: pd.DataFrame) -> pd.DataFrame:
     """Change multiindex to single index for multindex pandas dataframe"""
     df.columns = ["_".join(col) for col in df.columns.values]
