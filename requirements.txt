@@ -101,6 +101,7 @@ ruamel.yaml==0.18.6
 ruamel.yaml.clib==0.2.8
 scikit-learn==1.3.2
 scipy==1.10.1
+seaborn==0.13.2
 six==1.16.0
 soupsieve==2.5
 SQLAlchemy==2.0.29
@@ -113,7 +114,7 @@ traitlets==5.14.2
 typing_extensions==4.11.0
 tzdata==2024.1
 urllib3==2.2.1
-utils==1.0.2
+-e git+https://github.com/abhishekde95/Projects.git@4f24556394d8f78d5ae2179d0f7c4892511ba6a8#egg=utils
 virtualenv==20.26.2
 wcwidth==0.2.13
 webencodings==0.5.1
