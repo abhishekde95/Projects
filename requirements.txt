@@ -72,8 +72,10 @@ oauthlib==3.2.2
 packaging==24.0
 pamela==1.1.0
 pandas==2.0.3
+pandas-datareader==0.10.0
 parso==0.8.4
 pathspec==0.12.1
+patsy==0.5.6
 peewee==3.17.1
 pexpect==4.9.0
 pickleshare==0.7.5
@@ -110,6 +112,7 @@ soupsieve==2.5
 SQLAlchemy==2.0.29
 stack-data==0.6.3
 stanio==0.5.0
+statsmodels==0.14.1
 tenacity==8.3.0
 threadpoolctl==3.4.0
 tomli==2.0.1
@@ -119,7 +122,7 @@ traitlets==5.14.2
 typing_extensions==4.11.0
 tzdata==2024.1
 urllib3==2.2.1
--e git+https://github.com/abhishekde95/Projects.git@c30d2b46523f5afe03f1e60bd6732381c90a4f79#egg=utils
+-e git+https://github.com/abhishekde95/Projects.git@ba8c790f0d5a195a2388918f0a3764701a650f3a#egg=utils
 virtualenv==20.26.2
 wcwidth==0.2.13
 webencodings==0.5.1
