@@ -162,3 +162,4 @@ cython_debug/
 *jupyterhub*
 tokens.txt
 DS/pytorch/data/
+DS/pytorch/cifar_data/
