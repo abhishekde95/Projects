@@ -123,13 +123,14 @@ tenacity==8.3.0
 threadpoolctl==3.4.0
 tomli==2.0.1
 torch==2.2.2
+torchvision==0.17.2
 tornado==6.4
 tqdm==4.66.4
 traitlets==5.14.2
 typing_extensions==4.11.0
 tzdata==2024.1
 urllib3==2.2.1
--e git+https://github.com/abhishekde95/Projects.git@4b544c4f8e459f31d7a0826ee9d96449ac4ef955#egg=utils
+-e git+https://github.com/abhishekde95/Projects.git@efbf6ad2e6142319dac2e7a5d70e678c45543b4e#egg=utils
 virtualenv==20.26.2
 wcwidth==0.2.13
 webencodings==0.5.1
