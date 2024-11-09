@@ -139,7 +139,7 @@ traitlets==5.14.2
 typing_extensions==4.11.0
 tzdata==2024.1
 urllib3==2.2.1
--e git+https://github.com/abhishekde95/Projects.git@f8a78edf1a106a963491583d4051c0fc5254dd44#egg=utils
+-e git+https://github.com/abhishekde95/Projects.git@cec3ad122c0dcf8af91c5efcdc0a99b82f5fd163#egg=utils
 virtualenv==20.26.2
 wcwidth==0.2.13
 webencodings==0.5.1
